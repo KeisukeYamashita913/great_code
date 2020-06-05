@@ -15,7 +15,7 @@ int main() {
     }else if(mojisuu % 3 == 0 && mojisuu % 5 == 0){
       printf("FizzBuzz");
     }else{
-      printf(mojisuu)
+      printf(mojisuu);
     }
   }
 }
