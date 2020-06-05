@@ -3,13 +3,13 @@
 
 int main() {
 for(int mojisuu = 1 ; mojisuu <= 1000; mojisuu ++){
-    if(mojisuu % 3 == 0){
+    if(mojisuu % 3 == 0)
       printf("Fizz")
-    }else if(mojisuu % 5 == 0){
+    else if(mojisuu % 5 == 0)
       printf("Buzz")
-    }else if(mojisuu % 3 == 0 && mojisuu % 5 == 0){
+    else if(mojisuu % 3 == 0 && mojisuu % 5 == 0){
       printf("FizzBuzz")
-    }else{
+    else
       printf(mojisuu)
     }
   }
