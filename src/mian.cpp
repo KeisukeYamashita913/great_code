@@ -9,9 +9,10 @@ for(int mojisuu = 1 ; mojisuu <= 1000; mojisuu ++){
     else if(mojisuu % 5 == 0)
       printf("Buzz");
     else if(mojisuu % 3 == 0 && mojisuu % 5 == 0){
-      printf("FizzBuzz")
+      printf("FizzBuzz");
     else
       printf(mojisuu);
   }
   return 0;
+ }
 }
