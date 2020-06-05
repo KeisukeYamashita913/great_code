@@ -12,7 +12,7 @@ for(mojisuu = 1 ; mojisuu <= 1000; mojisuu ++){
     }else if(mojisuu % 3 == 0 && mojisuu % 5 == 0){
       printf("FizzBuzz\n");
     }else{
-      printf("%d\n",i);
+      printf("%d\n",mojisuu);
     }
   }
   return 0;
