@@ -15,4 +15,4 @@ for(int mojisuu = 1 ; mojisuu <= 1000; mojisuu ++){
   }
   return 0;
  }
-}
+
