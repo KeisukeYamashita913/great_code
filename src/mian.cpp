@@ -1,17 +1,18 @@
 #include <stdio.h>
-#include <stdlib.h>
-#pragma warning(disable : 4996)
 
 int main() {
-for(int mojisuu = 1 ; mojisuu <= 1000; mojisuu ++){
+    
+int mojisuu
+    
+for(mojisuu = 1 ; mojisuu <= 1000; mojisuu ++){
     if(mojisuu % 3 == 0)
-      printf("Fizz");
+      printf("Fizz"\n);
     else if(mojisuu % 5 == 0)
-      printf("Buzz");
+      printf("Buzz"\n);
     else if(mojisuu % 3 == 0 && mojisuu % 5 == 0){
-      printf("FizzBuzz");
+      printf("FizzBuzz"\n);
     else
-      printf(mojisuu);
+      printf("%d\n",i);
   }
   return 0;
  }
