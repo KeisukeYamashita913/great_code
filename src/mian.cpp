@@ -2,15 +2,15 @@
 
 int main() {
     
-int mojisuu
+int mojisuu;
     
 for(mojisuu = 1 ; mojisuu <= 1000; mojisuu ++){
     if(mojisuu % 3 == 0){
-      printf("Fizz"\n);
+      printf("Fizz\n");
     }else if(mojisuu % 5 == 0){
-      printf("Buzz"\n);
+      printf("Buzz\n");
     }else if(mojisuu % 3 == 0 && mojisuu % 5 == 0){
-      printf("FizzBuzz"\n);
+      printf("FizzBuzz\n");
     }else{
       printf("%d\n",i);
     }
